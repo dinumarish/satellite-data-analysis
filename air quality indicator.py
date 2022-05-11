@@ -31,7 +31,7 @@ def consturl():
        weat_label.grid_forget()
        desc_label.grid_forget()
     zipcode = zip_entry.get()
-    url = f'https://www.airnowapi.org/aq/forecast/zipCode/?format=application/json&zipCode={zipcode}&date=2020-10-20&distance=2&API_KEY=1F1117AD-60E8-472B-BCF8-13E79BDFA38E'
+    url = f'https://www.airnowapi.org/aq/forecast/zipCode/?format=application/json&zipCode={zipcode}&date=2020-10-20&distance=2&API_KEY=***********************'
     try:
        
         call = requests.get(url)
